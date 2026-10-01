@@ -142,5 +142,11 @@
     "Dell SC Series Install & Configure (Singapore)",
     "Dell PowerEdge Blade Server Solutions",
     "AWS Cloud AACS"
-  ]
+  ],
+  "blog": {
+    "name": "TechGrub Insights",
+    "url": "https://www.facebook.com/techgrubinsights",
+    "text": "My personal tech blog on Facebook, where I share practical notes, lessons and insights on Oracle, Solaris, Linux, virtualization and enterprise infrastructure.",
+    "button": "Follow on Facebook"
+  }
 }

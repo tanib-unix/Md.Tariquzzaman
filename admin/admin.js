@@ -25,12 +25,18 @@ const skillsConv = {
   from: s => s.split('\n').map(l => l.trim()).filter(Boolean).map(l => { const i = l.indexOf('|'); return { group: (i < 0 ? l : l.slice(0, i)).trim(), items: i < 0 ? [] : l.slice(i + 1).split(',').map(x => x.trim()).filter(Boolean) }; })
 };
 
+const blogConv = {
+  to: v => v ? [v.name, v.url, v.button, v.text].map(x => x ?? '').join(' | ') : '',
+  from: s => { const q = s.split('|').map(x => x.trim()); return q[1] ? { name: q[0], url: q[1], button: q[2] || 'Visit blog', text: q.slice(3).join(' | ') } : null; }
+};
+
 /* ---------- schemas ---------- */
 const SCHEMA = {
   profile: { label: 'Profile', file: 'profile', single: true, fields: [
     ['name', 'Full name', 'text'], ['title', 'Professional title', 'text'], ['tagline', 'Hero tagline', 'textarea'],
     ['roles', 'Typing animation phrases (one per line)', 'area', lines],
     ['location', 'Location', 'text'], ['email', 'Email', 'text'], ['phone', 'Phone', 'text'], ['linkedin', 'LinkedIn URL', 'text'],
+    ['blog', 'Blog / social card. Format: name | url | button text | description', 'textarea', blogConv, 'Leave empty to hide the blog section.', 3],
     ['photo', 'Profile photo', 'image'], ['cv', 'CV file path', 'text', null, 'e.g. assets/Md-Tariquzzaman-CV.pdf. Upload a new PDF in the Files tab.'],
     ['summary', 'About paragraphs (separate with a blank line)', 'area', paras, null, 10],
     ['stats', 'Headline numbers. Format: value | suffix | label', 'area', table(['value', 'suffix', 'label'], ['value']), 'Example: 15 | + | Years of experience'],

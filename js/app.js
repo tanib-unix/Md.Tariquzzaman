@@ -14,6 +14,7 @@ const ICON = {
   phone: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>',
   pin: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>',
   in: '<svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5c0-1.2 0-2.8-1.7-2.8s-2 1.3-2 2.700V21h-4z"/></svg>',
+  fb: '<svg viewBox="0 0 24 24" width="%s" height="%s" fill="currentColor"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-1 .4-1.7 1.8-1.7h1.6V3.8c-.3 0-1.3-.1-2.4-.1-2.5 0-4.1 1.500-4.1 4.200v2.600H7.600v3.300h2.800V22z"/></svg>',
   star: '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 2l3 6.5 7 .9-5.2 4.8 1.4 7L12 17.8 5.8 21.2l1.4-7L2 9.4l7-.9z"/></svg>'
 };
 
@@ -62,6 +63,14 @@ function renderProfile(p) {
     p.phone && `<a class="btn ghost" href="tel:${esc(p.phone.replace(/\s/g, ''))}">${ICON.phone} ${esc(p.phone)}</a>`,
     p.linkedin && `<a class="btn ghost" href="${esc(safeUrl(p.linkedin))}" target="_blank" rel="noopener">${ICON.in} LinkedIn</a>`].filter(Boolean).join('');
 
+  const b = p.blog;
+  if (b && b.url) {
+    const fb = n => ICON.fb.replace(/%s/g, n);
+    $('#blog').hidden = false; $('#blogNav').hidden = false;
+    $('#blogCard').innerHTML = `<div class="blog-ic">${fb(46)}</div><div><span class="eyebrow">Personal Blog</span><h2>${esc(b.name || 'My Blog')}</h2><p>${esc(b.text || '')}</p></div><a class="btn" href="${esc(safeUrl(b.url))}" target="_blank" rel="noopener">${fb(18)} ${esc(b.button || 'Visit blog')}</a>`;
+    $('#blogCard').classList.add('rv');
+    $('#contactLinks').insertAdjacentHTML('beforeend', `<a class="btn ghost" href="${esc(safeUrl(b.url))}" target="_blank" rel="noopener">${fb(18)} Blog</a>`);
+  }
   startTyped(p.roles || []);
   const counter = new IntersectionObserver(es => es.forEach(e => {
     if (!e.isIntersecting) return; counter.unobserve(e.target);
