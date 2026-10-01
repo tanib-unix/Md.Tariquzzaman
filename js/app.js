@@ -120,6 +120,7 @@ addEventListener('keydown', e => { if (e.key === 'Escape') [$('#lightbox'), $('#
 
 /* certificates */
 let certs = [], cur = 0, timer;
+const seenOK = () => true;
 function layoutCarousel() {
   const items = $$('.car-item'), n = items.length, small = innerWidth < 620;
   items.forEach((el, i) => {
@@ -132,7 +133,7 @@ function layoutCarousel() {
   const c = certs[cur]; if (c) $('#carCaption').innerHTML = `<b>${esc(c.title)}</b><span>${esc(c.issuer)} · ${esc(c.date)}</span>`;
 }
 const go = d => { cur = (cur + d + certs.length) % certs.length; layoutCarousel(); };
-function autoplay() { clearInterval(timer); if (!reduce) timer = setInterval(() => go(1), 4500); }
+function autoplay() { clearInterval(timer); if (!reduce && seenOK()) timer = setInterval(() => go(1), 4500); }
 function initCerts(list) {
   certs = list; if (!certs.length) return;
   $('#carStage').innerHTML = certs.map((c, i) => `<div class="car-item" data-i="${i}" role="button" aria-label="${esc(c.title)}"><img src="${esc(c.image)}" alt="${esc(c.title)}" loading="${i < 4 ? 'eager' : 'lazy'}" draggable="false"></div>`).join('');
@@ -144,7 +145,11 @@ function initCerts(list) {
   car.addEventListener('mouseenter', () => clearInterval(timer)); car.addEventListener('mouseleave', autoplay);
   car.addEventListener('keydown', e => { if (e.key === 'ArrowRight') go(1); if (e.key === 'ArrowLeft') go(-1); });
   addEventListener('resize', layoutCarousel);
-  layoutCarousel(); autoplay();
+  layoutCarousel();
+  let seen = false;
+  new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { if (!seen) { seen = true; cur = 0; layoutCarousel(); } autoplay(); } else clearInterval(timer);
+  }), { threshold: .35 }).observe(car);
 
   const cats = ['All', ...new Set(certs.map(c => c.category).filter(Boolean))];
   const f = $('#certFilters'), grid = $('#certGrid');
