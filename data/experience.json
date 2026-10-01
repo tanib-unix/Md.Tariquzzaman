@@ -1,0 +1,39 @@
+[
+  {
+    "company": "Express Systems Limited",
+    "location": "Dhaka, Bangladesh",
+    "period": "March 2020 – Present",
+    "role": "Manager, Oracle Post-Sales Department",
+    "note": "Previously Deputy Manager, Post-Sales and Assistant Manager",
+    "bullets": [
+      "Lead the Oracle team in planning, implementing and supporting enterprise infrastructure for Government, Banking and Telco customers.",
+      "Plan, design, install and implement Oracle Exadata, Private Cloud Appliance and SPARC/LDOM solutions aligned with availability needs.",
+      "Lead round-the-clock support including SPARC and x86 diagnostics, Exadata monitoring and ODA troubleshooting.",
+      "Implement Solaris 10/11, Oracle Linux and RHEL environments, Solaris Cluster and Linux HA clusters, OS patching and firmware upgrades.",
+      "Configure LDOMs, I/O domains, PCI segregation, ZFS, IPMP, multipathing and LUN integration; backup, recovery and performance tuning.",
+      "Develop team capability through hands-on training, documentation and technical presentations."
+    ]
+  },
+  {
+    "company": "Tech Valley Networks Limited",
+    "location": "Dhaka, Bangladesh",
+    "period": "August 2014 – March 2020",
+    "role": "Senior System Engineer",
+    "note": "",
+    "bullets": [
+      "Implemented and administered Sun/SPARC systems, Solaris and LDOM virtualization; managed patches, ZFS mirrors, RAID and IPMP.",
+      "Installed Dell EqualLogic PS, Compellent SC and Dell EMC storage including LUN provisioning, host integration and multipathing."
+    ]
+  },
+  {
+    "company": "Computer Services Limited",
+    "location": "Dhaka, Bangladesh",
+    "period": "October 2010 – August 2014",
+    "role": "Support Engineer",
+    "note": "",
+    "bullets": [
+      "Installed and supported Dell, Fujitsu and HP servers, blade systems and Dell storage.",
+      "Administered Windows Server and Linux, configured RAID and Linux clusters, and delivered project documentation."
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Portfolio Admin</title>
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../"><span class="mark">MT</span> Portfolio Admin</a>
+  <div class="top-actions">
+    <span id="status" class="status" role="status"></span>
+    <button class="btn" id="saveBtn" disabled>Publish changes</button>
+    <button class="btn ghost" id="logoutBtn" hidden>Sign out</button>
+  </div>
+</header>
+
+<main>
+  <section id="login" class="card login">
+    <h1>Connect to GitHub</h1>
+    <p class="muted">Your changes are saved as commits to your repository, so GitHub Pages republishes the site automatically. Your token stays only in this browser.</p>
+    <label>Repository owner<input id="cOwner" placeholder="your-github-username" autocomplete="off"></label>
+    <label>Repository name<input id="cRepo" placeholder="portfolio" autocomplete="off"></label>
+    <label>Branch<input id="cBranch" value="main" autocomplete="off"></label>
+    <label>Site folder in repo <small>(leave empty if the site is at the repo root)</small><input id="cDir" placeholder="" autocomplete="off"></label>
+    <label>Personal access token
+      <input id="cToken" type="password" placeholder="github_pat_..." autocomplete="off">
+      <small>Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> limited to this one repository with <b>Contents: Read and write</b>.</small>
+    </label>
+    <button class="btn" id="connectBtn">Connect</button>
+    <p class="err" id="loginErr"></p>
+  </section>
+
+  <section id="app" hidden>
+    <nav class="tabs" id="tabs" role="tablist"></nav>
+    <div id="panel"></div>
+  </section>
+</main>
+<div class="toast" id="toast" role="status"></div>
+<script src="admin.js"></script>
+</body>
+</html>

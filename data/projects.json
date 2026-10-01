@@ -1,0 +1,453 @@
+[
+  {
+    "id": "nrb-bank-cbs-upgradation",
+    "client": "NRB Bank",
+    "title": "CBS Upgradation",
+    "period": "Apr – May 2026",
+    "year": 2026,
+    "category": "ODA",
+    "tech": [
+      "ODA X11 HA",
+      "DC/DR",
+      "HLD/LLD"
+    ],
+    "description": "Designed and implemented Oracle Database Appliance (ODA X11 HA) infrastructure across DC and DR environments. Delivered complete deployment, HLD/LLD documentation and technical knowledge transfer on ODA architecture and operations.",
+    "featured": true
+  },
+  {
+    "id": "grameen-phone-rafm-infrastructure-implementation",
+    "client": "Grameen Phone",
+    "title": "RAFM Infrastructure Implementation",
+    "period": "Oct – Dec 2024",
+    "year": 2024,
+    "category": "Private Cloud",
+    "tech": [
+      "PCA X10",
+      "Oracle Linux 9.5",
+      "HA",
+      "Block Storage"
+    ],
+    "description": "Planned, assessed and executed Day 0 configuration for RAFM on Oracle Private Cloud Appliance X10. Created VM instances, provisioned block storage, configured HA across two Oracle Linux 9.5 VMs and full manual VM backups.",
+    "featured": true
+  },
+  {
+    "id": "ucb-bank-cbs-hardware-upgrade",
+    "client": "UCB Bank",
+    "title": "CBS Hardware Upgrade",
+    "period": "Feb – Apr 2024",
+    "year": 2024,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC M8-2",
+      "SPARC T8-2",
+      "LDOM",
+      "Shared Storage"
+    ],
+    "description": "Designed Oracle SPARC M8-2 and T8-2 solutions, planned LDOM I/O root-complex allocation, installed and configured LDOMs. Supported DC/DR service restoration through shared storage with backup networking and minimal downtime. No reported service impact.",
+    "featured": true
+  },
+  {
+    "id": "jamuna-bank-cbs-hardware-upgrade",
+    "client": "Jamuna Bank",
+    "title": "CBS Hardware Upgrade",
+    "period": "Jan – Mar 2024",
+    "year": 2024,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC M8-2",
+      "SPARC T8-2",
+      "LDOM",
+      "Solaris Cluster"
+    ],
+    "description": "Designed Oracle SPARC M8-2 and T8-2 solutions, planned LDOM I/O root-complex allocation, installed and configured LDOMs. Supported DC/DR service restoration through shared storage and Solaris Cluster with backup networking and minimal downtime. No reported service impact.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-dwh-exadata-expansion",
+    "client": "Robi Axiata",
+    "title": "DWH Exadata Expansion",
+    "period": "Feb – Jun 2024",
+    "year": 2024,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X9M-2",
+      "RAC"
+    ],
+    "description": "Installed and deployed Oracle Exadata X9M-2 database and storage servers, including post-installation configuration and creation of a test RAC database. Completed without major issues.",
+    "featured": true
+  },
+  {
+    "id": "robi-axiata-backup-restoration-project",
+    "client": "Robi Axiata",
+    "title": "Backup Restoration Project",
+    "period": "Jun – Jul 2024",
+    "year": 2024,
+    "category": "Storage",
+    "tech": [
+      "ZFS X9-2",
+      "NFS",
+      "100GbE"
+    ],
+    "description": "Installed and configured Oracle ZFS Storage Appliance X9-2 with high-performance and capacity-optimized RAID profiles, Active-Active cluster and 100Gb network deployment. Configured NFS file systems and delivered full handover documentation.",
+    "featured": false
+  },
+  {
+    "id": "bangladesh-police-cdms-upgradation",
+    "client": "Bangladesh Police",
+    "title": "CDMS Upgradation",
+    "period": "Jun – Jul 2024",
+    "year": 2024,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X9M-2",
+      "RAC"
+    ],
+    "description": "Installed and deployed Oracle Exadata X9M-2 database and storage servers, including post-installation configuration and creation of a test RAC database for the criminal application. Completed without major issues.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-edw-and-icms-platform-upgrade",
+    "client": "Robi Axiata",
+    "title": "EDW and ICMS Platform Upgrade",
+    "period": "Apr – Jun 2023",
+    "year": 2023,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X9M-2",
+      "RAC"
+    ],
+    "description": "Installed and deployed Oracle Exadata X9M-2 database and storage servers, including post-installation configuration and creation of a test RAC database. Completed without major issues.",
+    "featured": false
+  },
+  {
+    "id": "grameen-phone-dwh-storage-extended-project",
+    "client": "Grameen Phone",
+    "title": "DWH Storage Extended Project",
+    "period": "Apr – Jun 2023",
+    "year": 2023,
+    "category": "Storage",
+    "tech": [
+      "ZFS X9-2",
+      "NFS",
+      "100GbE"
+    ],
+    "description": "Installed and configured Oracle ZFS Storage Appliance X9-2 with high-performance and capacity-optimized RAID profiles, Active-Active cluster and 100Gb network deployment. Configured NFS file systems and delivered full handover documentation.",
+    "featured": false
+  },
+  {
+    "id": "ucbl-bank-cms-hardware-upgrade",
+    "client": "UCBL Bank",
+    "title": "CMS Hardware Upgrade",
+    "period": "Apr – Jun 2023",
+    "year": 2023,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T8-2",
+      "LDOM",
+      "Solaris Cluster",
+      "DC/DR"
+    ],
+    "description": "Designed a SPARC T8-2 solution with LDOMs, OS cloning, I/O root-complex planning and a two-node Solaris Cluster supporting DC/DR. Delivered end-to-end planning, installation, validation and documentation for a highly available CMS environment.",
+    "featured": false
+  },
+  {
+    "id": "ific-bank-cms-hardware-upgrade",
+    "client": "IFIC Bank",
+    "title": "CMS Hardware Upgrade",
+    "period": "Apr – Jun 2022",
+    "year": 2022,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T8-2",
+      "LDOM",
+      "Oracle KVM",
+      "X8-2"
+    ],
+    "description": "Designed a SPARC T8-2 solution with LDOMs, OS cloning and I/O root-complex planning, plus Oracle KVM on Oracle X8-2 for DC/DR. Delivered installation report, HLD and LLD documentation.",
+    "featured": false
+  },
+  {
+    "id": "aibl-bank-cms-hardware-upgrade",
+    "client": "AIBL Bank",
+    "title": "CMS Hardware Upgrade",
+    "period": "Jun – Jul 2022",
+    "year": 2022,
+    "category": "ODA",
+    "tech": [
+      "ODA X8-2",
+      "DC/DR",
+      "HLD/LLD"
+    ],
+    "description": "Designed and implemented Oracle Database Appliance (ODA X8-2) infrastructure across DC and DR environments. Delivered complete deployment, HLD/LLD documentation and technical knowledge transfer on ODA architecture and operations.",
+    "featured": false
+  },
+  {
+    "id": "nrb-bank-cms-hardware-upgrade",
+    "client": "NRB Bank",
+    "title": "CMS Hardware Upgrade",
+    "period": "Jun – Jul 2022",
+    "year": 2022,
+    "category": "ODA",
+    "tech": [
+      "ODA X8-2 HA",
+      "DC/DR",
+      "HLD/LLD"
+    ],
+    "description": "Designed and implemented Oracle Database Appliance (ODA X8-2 HA) infrastructure across DC and DR environments. Delivered complete deployment, HLD/LLD documentation and technical knowledge transfer on ODA architecture and operations.",
+    "featured": false
+  },
+  {
+    "id": "bkash-dwh-project",
+    "client": "bKash",
+    "title": "DWH Project",
+    "period": "Jun – Jul 2022",
+    "year": 2022,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X9M-2",
+      "RAC"
+    ],
+    "description": "Installed and deployed Oracle Exadata X9M-2 database and storage servers, including post-installation configuration and creation of a test RAC database. Completed without major issues.",
+    "featured": false
+  },
+  {
+    "id": "bbs-census-project",
+    "client": "BBS",
+    "title": "Census Project",
+    "period": "Jul – Sep 2021",
+    "year": 2021,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X9M-2",
+      "RAC"
+    ],
+    "description": "Installed and deployed Oracle Exadata X9M-2 database and storage servers, including post-installation configuration and creation of a test RAC database. Completed without major issues.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-tech-refresh-project",
+    "client": "Robi Axiata",
+    "title": "Tech Refresh Project",
+    "period": "Jul – Aug 2021",
+    "year": 2021,
+    "category": "Exadata",
+    "tech": [
+      "Exadata X8M-2",
+      "OSSI",
+      "RAC"
+    ],
+    "description": "Delivered Oracle Exadata X8M-2 hardware and software OSSI installation, database and storage server configuration and test RAC database. Completed HLD/LLD and RFS documentation within the customer timeline.",
+    "featured": false
+  },
+  {
+    "id": "rjsc-application-database",
+    "client": "RJSC",
+    "title": "Application Database",
+    "period": "Jul – Aug 2021",
+    "year": 2021,
+    "category": "ODA",
+    "tech": [
+      "ODA X8-2 HA",
+      "KVM",
+      "DC/DR"
+    ],
+    "description": "Delivered ODA X8-2 HA installation across DC and DR, including KVM virtualization on the HA platform, with implementation documentation and detailed technical reports.",
+    "featured": false
+  },
+  {
+    "id": "nbr-asycuda-project",
+    "client": "NBR",
+    "title": "ASYCUDA Project",
+    "period": "Apr – May 2021",
+    "year": 2021,
+    "category": "x86 & Servers",
+    "tech": [
+      "Oracle X8-2L",
+      "RAID",
+      "Network Teaming"
+    ],
+    "description": "Installed and configured Oracle X8-2L servers with RAID and network teaming for load balancing and redundancy. Delivered installation, configuration and handover documentation.",
+    "featured": false
+  },
+  {
+    "id": "bank-asia-cms-project",
+    "client": "Bank Asia",
+    "title": "CMS Project",
+    "period": "Feb – Mar 2021",
+    "year": 2021,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC",
+      "LDOM",
+      "Software RAID",
+      "Hardening"
+    ],
+    "description": "Installed Oracle SPARC infrastructure with software RAID, LDOM root-complex planning, Solaris configuration and system hardening. Delivered installation and handover documentation.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-icms-project",
+    "client": "Robi Axiata",
+    "title": "ICMS Project",
+    "period": "Mar – Apr 2018",
+    "year": 2018,
+    "category": "Storage",
+    "tech": [
+      "Cisco UCS",
+      "Compellent SC4020",
+      "SAN Zoning"
+    ],
+    "description": "Installed Cisco rack servers and Dell Compellent SC4020 storage including initialization, SAN zoning, LUN creation and host integration. Delivered LLD, SLD and implementation documentation.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-sms-filter-project",
+    "client": "Robi Axiata",
+    "title": "SMS Filter Project",
+    "period": "2017",
+    "year": 2017,
+    "category": "x86 & Servers",
+    "tech": [
+      "Dell Rack",
+      "RAID"
+    ],
+    "description": "Installed and configured Dell rack servers including RAID configuration and basic system setup.",
+    "featured": false
+  },
+  {
+    "id": "grameen-phone-mfs-project",
+    "client": "Grameen Phone",
+    "title": "MFS Project",
+    "period": "Mar – Apr 2017",
+    "year": 2017,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "X5-2",
+      "SPARC T5-2",
+      "SL150 Tape",
+      "Solaris Cluster"
+    ],
+    "description": "Installed Oracle X5-2 and SPARC T5-2 servers, StorageTek SL150 Tape Library and Solaris Cluster components for the MFS environment.",
+    "featured": false
+  },
+  {
+    "id": "grameen-phone-ers-dr-pr-project",
+    "client": "Grameen Phone",
+    "title": "ERS DR & PR Project",
+    "period": "Mar – May 2017",
+    "year": 2017,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T5-2",
+      "LDOM"
+    ],
+    "description": "Installed Oracle SPARC T5-2 servers and implemented LDOM virtualization for ERS. Delivered LLD and implementation documentation.",
+    "featured": false
+  },
+  {
+    "id": "grameen-phone-iris-dr-pr-project",
+    "client": "Grameen Phone",
+    "title": "IRIS DR & PR Project",
+    "period": "Dec 2016",
+    "year": 2016,
+    "category": "x86 & Servers",
+    "tech": [
+      "Oracle X8-2L",
+      "RAID",
+      "Network Teaming"
+    ],
+    "description": "Installed Oracle servers with RAID and network teaming for load balancing and redundancy. Delivered full handover documentation.",
+    "featured": false
+  },
+  {
+    "id": "banglalink-etop-up-dr-pr-project",
+    "client": "Banglalink",
+    "title": "ETOP-UP DR & PR Project",
+    "period": "Oct – Nov 2016",
+    "year": 2016,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T5-2",
+      "HPE",
+      "Firmware",
+      "Patching"
+    ],
+    "description": "Implemented Oracle SPARC T5-2 and HPE infrastructure with hardware RAID, firmware upgrades and OS patching. Delivered installation documentation, HLD and LLD.",
+    "featured": false
+  },
+  {
+    "id": "banglalink-ivr-project",
+    "client": "Banglalink",
+    "title": "IVR Project",
+    "period": "Oct – Nov 2016",
+    "year": 2016,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T5-2",
+      "HPE",
+      "Firmware",
+      "Patching"
+    ],
+    "description": "Implemented Oracle SPARC T5-2 and HPE infrastructure with hardware RAID, firmware upgrades and OS patching. Delivered installation documentation, HLD and LLD.",
+    "featured": false
+  },
+  {
+    "id": "robi-axiata-ods-project",
+    "client": "Robi Axiata",
+    "title": "ODS Project",
+    "period": "Aug – Sep 2016",
+    "year": 2016,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T5-2",
+      "LDOM",
+      "Shared Storage"
+    ],
+    "description": "Designed Oracle SPARC T5-2 solutions, planned LDOM I/O root-complex allocation and configured LDOMs. Supported DC/DR restoration with minimal downtime.",
+    "featured": false
+  },
+  {
+    "id": "brac-bank-dell-hw-project",
+    "client": "Brac Bank",
+    "title": "Dell HW Project",
+    "period": "Sep 2015",
+    "year": 2015,
+    "category": "Storage",
+    "tech": [
+      "Dell Blade",
+      "Compellent SC4020",
+      "LUN"
+    ],
+    "description": "Implemented Dell Blade Server and Compellent SC4020 storage with hardware RAID, LUN creation, host integration, firmware upgrades and OS patching.",
+    "featured": false
+  },
+  {
+    "id": "bcc-database-server-project",
+    "client": "BCC",
+    "title": "Database Server Project",
+    "period": "Jun – Jul 2015",
+    "year": 2015,
+    "category": "SPARC & LDOM",
+    "tech": [
+      "SPARC T5-2",
+      "ZFS Mirror",
+      "Solaris"
+    ],
+    "description": "Implemented Oracle SPARC T5-2 infrastructure with ZFS mirrors, firmware upgrades and Solaris patching. Delivered installation documentation, HLD and LLD.",
+    "featured": false
+  },
+  {
+    "id": "m-j-group-oracle-ebs-project",
+    "client": "M&J Group",
+    "title": "Oracle EBS Project",
+    "period": "Nov – Dec 2014",
+    "year": 2014,
+    "category": "x86 & Servers",
+    "tech": [
+      "Cisco UCS",
+      "Oracle EBS"
+    ],
+    "description": "Implemented Cisco UCS Blade infrastructure for Oracle EBS with hardware RAID, firmware upgrades and OS patching. Delivered installation documentation, HLD and LLD.",
+    "featured": false
+  }
+]

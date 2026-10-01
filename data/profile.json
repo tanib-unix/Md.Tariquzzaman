@@ -1,0 +1,146 @@
+{
+  "name": "Md Tariquzzaman",
+  "title": "Oracle Infrastructure & Engineered Systems Lead Engineer",
+  "roles": [
+    "Oracle Exadata",
+    "Private Cloud Appliance",
+    "SPARC & LDOM",
+    "Enterprise Infrastructure",
+    "High Availability & DR"
+  ],
+  "tagline": "15+ years designing, implementing and supporting mission-critical Oracle infrastructure for Banking, Telecom and Government.",
+  "location": "Dhaka, Bangladesh",
+  "phone": "+8801774483530",
+  "email": "mdtariquzzamantanib@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mdtariquzzamantanib",
+  "photo": "assets/profile.jpg",
+  "cv": "assets/Md-Tariquzzaman-CV.pdf",
+  "summary": [
+    "Oracle Technical Lead and Enterprise Infrastructure Specialist with 15+ years of progressive experience in infrastructure solution design, architecture planning, implementation, migration, high availability, virtualization, troubleshooting and enterprise project delivery.",
+    "Deep hands-on expertise across Oracle Exadata Database Machine, Private Cloud Appliance (PCA), Database Appliance (ODA), SPARC and x86 servers, Solaris and Oracle Linux, Solaris Cluster, LDOM and KVM virtualization, ZFS Storage Appliance and StorageTek tape libraries.",
+    "Leads technical teams from solution design and planning through installation, configuration, migration, testing, documentation, handover and post-implementation support, translating business requirements into scalable, resilient and secure platforms.",
+    "Working knowledge of Dell PowerEdge, Compellent, HPE ProLiant, Cisco UCS and VMware ESXi/vCenter, with growing expertise in AWS, Kubernetes, VMware Cloud Foundation and Red Hat OpenShift."
+  ],
+  "stats": [
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Years of experience"
+    },
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Enterprise projects"
+    },
+    {
+      "value": 60,
+      "suffix": "+",
+      "label": "Systems hardened"
+    },
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Oracle certifications"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Oracle Engineered Systems",
+      "items": [
+        "Exadata X8M / X9M-2",
+        "Database Appliance (ODA X8/X11)",
+        "Private Cloud Appliance X10",
+        "ZFS Storage Appliance X9-2",
+        "StorageTek SL-Series Tape"
+      ]
+    },
+    {
+      "group": "Servers & Virtualization",
+      "items": [
+        "SPARC M8-2, T8-2, T8-4, T7-1, T5-4, M12",
+        "Oracle x86 X8-2 / X8-2L",
+        "LDOM & I/O Domains",
+        "Oracle Linux KVM",
+        "VMware ESXi / vCenter"
+      ]
+    },
+    {
+      "group": "Operating Systems & HA",
+      "items": [
+        "Solaris 10 / 11",
+        "Oracle Linux / RHEL",
+        "Solaris Cluster",
+        "Linux HA Clustering",
+        "ZFS, SVM, IPMP, NFS, RAID"
+      ]
+    },
+    {
+      "group": "Storage & Hardware Platforms",
+      "items": [
+        "Dell Compellent SC Series",
+        "Dell EqualLogic / EMC",
+        "Cisco UCS Blade",
+        "HPE ProLiant / Dell PowerEdge",
+        "Multipathing & SAN Zoning"
+      ]
+    },
+    {
+      "group": "Cloud & Emerging",
+      "items": [
+        "AWS Architecture",
+        "Kubernetes",
+        "VMware Cloud Foundation",
+        "Red Hat OpenShift",
+        "Cloud-native Virtualization"
+      ]
+    },
+    {
+      "group": "Delivery & Leadership",
+      "items": [
+        "HLD / LLD Documentation",
+        "Capacity Planning",
+        "Root Cause Analysis",
+        "Migration & Upgrades",
+        "Team Leadership & Knowledge Transfer"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Science and Engineering",
+      "school": "Prime University, Dhaka",
+      "period": "2009 – 2013"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Rising Star Award",
+      "period": "2024 – 2025",
+      "text": "For significant contributions to major Telecom and Mobile Financial Services infrastructure projects."
+    },
+    {
+      "title": "Best Performer of the Year",
+      "period": "2022 – 2023",
+      "text": "Certificate of Appreciation for outstanding performance and successful project delivery."
+    },
+    {
+      "title": "30+ Enterprise Projects",
+      "period": "Career",
+      "text": "Delivered large-scale projects and strengthened security across 60+ systems."
+    }
+  ],
+  "languages": [
+    "Bengali (native)",
+    "English (proficient)"
+  ],
+  "training": [
+    "Oracle Private Cloud Appliance",
+    "T7 Troubleshooting & Installation",
+    "Sun SPARC Enterprise M3000 Administration",
+    "Oracle Solaris 11 Administrator",
+    "Oracle Solaris LDOM",
+    "Dell SC Series Install & Configure (Singapore)",
+    "Dell PowerEdge Blade Server Solutions",
+    "AWS Cloud AACS"
+  ]
+}

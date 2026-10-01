@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Oracle Exadata Database Machine X9M Certified Implementation Specialist",
+    "issuer": "Oracle",
+    "date": "July 21, 2022",
+    "image": "assets/certs/oracle-exadata-database-machine-x9m-tariqzzaman.jpg",
+    "category": "Exadata",
+    "credentialId": "292041369OPNEXA21CIS"
+  },
+  {
+    "title": "Oracle Certified Expert, Database 12c: RAC and Grid Infrastructure Administrator",
+    "issuer": "Oracle",
+    "date": "June 25, 2022",
+    "image": "assets/certs/rac-12c.jpg",
+    "category": "Database",
+    "credentialId": "29204136912CRACEX"
+  },
+  {
+    "title": "Oracle Database Administration 2019 Certified Professional",
+    "issuer": "Oracle",
+    "date": "April 23, 2022",
+    "image": "assets/certs/ocp-19c.jpg",
+    "category": "Database",
+    "credentialId": "292041369DB19COCP"
+  },
+  {
+    "title": "Oracle Exadata On-Premise 2021 Solutions Engineer Specialist",
+    "issuer": "Oracle",
+    "date": "March 30, 2021",
+    "image": "assets/certs/exadata-solutions-2021.jpg",
+    "category": "Exadata",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle Exadata Hardware Installation & Software Configuration (2019)",
+    "issuer": "Oracle",
+    "date": "April 19, 2021",
+    "image": "assets/certs/oracle-exadata-hardware-installation-software-configuration.jpg",
+    "category": "Exadata",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle Exadata Database Machine Field Delivery Support Consultant",
+    "issuer": "Oracle",
+    "date": "April 3, 2020",
+    "image": "assets/certs/exadata-fd.jpg",
+    "category": "Exadata",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle Exadata X8 and ZDLRA X8 Technical Introduction",
+    "issuer": "Oracle",
+    "date": "April 1, 2020",
+    "image": "assets/certs/exadata-x8-and-zdlra.jpg",
+    "category": "Exadata",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle ZFS Storage Appliance ZS3 and OS8 Differences",
+    "issuer": "Oracle",
+    "date": "April 16, 2020",
+    "image": "assets/certs/oracle-zfs-storage-appliance-zs3-os8.jpg",
+    "category": "Storage",
+    "credentialId": ""
+  },
+  {
+    "title": "SPARC T8 Assessment",
+    "issuer": "Oracle",
+    "date": "April 15, 2020",
+    "image": "assets/certs/sparc-t8.jpg",
+    "category": "Servers",
+    "credentialId": ""
+  },
+  {
+    "title": "SPARC M7 Processor and Product Overview",
+    "issuer": "Oracle",
+    "date": "April 1, 2020",
+    "image": "assets/certs/sparc-m7.jpg",
+    "category": "Servers",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle Server X8-2 / X8-2L Technical Introduction",
+    "issuer": "Oracle",
+    "date": "April 1, 2020",
+    "image": "assets/certs/oracle-server-x8-2-x8-2l.jpg",
+    "category": "Servers",
+    "credentialId": ""
+  },
+  {
+    "title": "Oracle x86 Server Installation Specialist",
+    "issuer": "Oracle",
+    "date": "April 4, 2020",
+    "image": "assets/certs/oracle-x86.jpg",
+    "category": "Servers",
+    "credentialId": ""
+  },
+  {
+    "title": "Sun Blade Server Support Consultant (Field Delivery)",
+    "issuer": "Oracle",
+    "date": "April 8, 2020",
+    "image": "assets/certs/sun-blade-server.jpg",
+    "category": "Servers",
+    "credentialId": ""
+  },
+  {
+    "title": "General Product Support Specialist",
+    "issuer": "Oracle",
+    "date": "April 4, 2020",
+    "image": "assets/certs/gps.jpg",
+    "category": "Support",
+    "credentialId": ""
+  },
+  {
+    "title": "Red Hat Certified Engineer (RHCE), RHEL 6",
+    "issuer": "Red Hat",
+    "date": "October 3, 2013",
+    "image": "assets/certs/md-tariquzzaman-rhce.jpg",
+    "category": "Linux",
+    "credentialId": "130-170-475"
+  },
+  {
+    "title": "Red Hat Certified System Administrator (RHCSA), RHEL 6",
+    "issuer": "Red Hat",
+    "date": "October 2, 2013",
+    "image": "assets/certs/md-tariquzzaman-rhcsa.jpg",
+    "category": "Linux",
+    "credentialId": "130-170-475"
+  }
+]
