@@ -120,7 +120,6 @@ addEventListener('keydown', e => { if (e.key === 'Escape') [$('#lightbox'), $('#
 
 /* certificates */
 let certs = [], cur = 0, timer;
-const seenOK = () => true;
 function layoutCarousel() {
   const items = $$('.car-item'), n = items.length, small = innerWidth < 620;
   items.forEach((el, i) => {
@@ -133,7 +132,7 @@ function layoutCarousel() {
   const c = certs[cur]; if (c) $('#carCaption').innerHTML = `<b>${esc(c.title)}</b><span>${esc(c.issuer)} · ${esc(c.date)}</span>`;
 }
 const go = d => { cur = (cur + d + certs.length) % certs.length; layoutCarousel(); };
-function autoplay() { clearInterval(timer); if (!reduce && seenOK()) timer = setInterval(() => go(1), 4500); }
+function autoplay() { clearInterval(timer); if (!reduce) timer = setInterval(() => go(1), 4500); }
 function initCerts(list) {
   certs = list; if (!certs.length) return;
   $('#carStage').innerHTML = certs.map((c, i) => `<div class="car-item" data-i="${i}" role="button" aria-label="${esc(c.title)}"><img src="${esc(c.image)}" alt="${esc(c.title)}" loading="${i < 4 ? 'eager' : 'lazy'}" draggable="false"></div>`).join('');
